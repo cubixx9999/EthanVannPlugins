@@ -26,7 +26,7 @@ public class RunEnabler extends Plugin {
     }
 
     boolean hasMoreThanZeroEnergy() {
-        return EthanApiPlugin.getClient().getEnergy() > 100;
+        return EthanApiPlugin.getClient().getEnergy() > 9600;
     }
 
     void enableRun() {
